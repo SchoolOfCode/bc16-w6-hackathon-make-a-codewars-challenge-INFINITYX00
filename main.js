@@ -2,3 +2,7 @@
 // You can handle any numbers
 // If the temp is less than or equal to 20, return : it's cold out you should wear a coat
 // else return : it's warm out, you don't need a coat.
+
+export function coatOrNoCoat(75) {
+    return 75;
+}

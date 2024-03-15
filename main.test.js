@@ -48,7 +48,7 @@ test("Temperature large value", () => {
 // Inside the test call the coatOrNoCoat function with an argument of 25.9.
 // Assert that the value returned is "it's cold out, you should wear a coat"
 
-test("Decimal temperature (rounded up)", () => {
+test("Decimal temperature (rounded down)", () => {
   expect(coatOrNoCoat(19.8)).toBe("it's cold out you should wear a coat");
 });
 

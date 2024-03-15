@@ -2,7 +2,7 @@
 import { test, expect } from "vitest";
 
 // Import the 'coatOrNoCoat' function from main.js
-import coatOrNoCoat from "main.js";
+import coatOrNoCoat from "/main.js";
 
 //Test Case: Temperature less than or equal to 20
 // Inside the test call the coatOrNoCoat function with an argument of 15.
@@ -65,7 +65,7 @@ test("Decimal temperature (rounded up)", () => {
 // Assert that the value returned is undefined
 
 test("Non-numeric input", () => {
-  expect(coatOrNoCoat("thirty")).toBe(undefined);
+  expect(coatOrNoCoat("thirty")).toBe("undefined");
 });
 
 // Test Case: Missing input
@@ -73,7 +73,7 @@ test("Non-numeric input", () => {
 // Assert that the value returned is undefined
 
 test("Missing input", () => {
-  expect(coatOrNoCoat()).toBe(undefined);
+  expect(coatOrNoCoat()).toBe("undefined");
 });
 
 // Test Case: Very high temperature

@@ -38,3 +38,17 @@ Test cases:
 - Non-numeric input
 - Missing input
 - Very high temperature
+
+Reflections
+
+What went well:
+
+- Planning and testing
+- Discussing ideas and making team decisions
+- Communication within the team
+
+How I could improve
+
+- Get to level 300 on codewars
+- Stay relaxed even when things go wrong
+- Improve the kata by making harder levels

@@ -1,9 +1,11 @@
-// Hello challenger! Your task is to write a function called `coatOrNoCoat` it should take in a single number argument of `temp`.
-// You can handle any numbers
-// If the temp is less than or equal to 20, return : it's cold out you should wear a coat
-// else return : it's warm out, you don't need a coat.
+// Hello Challenger!
+// I often never know when I should wear my jacket, I always wear it at the wrong time! So please help me by writing called `coatOrNoCoat`
+// It should take in a single number argument of `temp`.
+// The function should be able to handle any numbers no matter how big or small.
+// If the temp is less than 20, return "it's cold out you should wear a coat"
+// If the temp is greater than or equal 20 return "it's warm out you don't need a coat"
 
-export default function coatOrNoCoat(temperature) {
-  return "it's warm out, you don't need a coat";
-  //return "it's cold out you should wear a coat";
+export default function coatOrNoCoat(temp) {
+  if (temp < 20) return "it's cold out you should wear a coat";
+  if (temp >= 20) return "it's warm out you don't need a coat";
 }

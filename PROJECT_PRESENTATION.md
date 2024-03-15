@@ -1,5 +1,3 @@
-Put your plan, story, and any supporting material here, you could use the help of a readme markdown generator such as [readme.so](https://readme.so/)
-
 Kata instructions
 Hello challenger! Your task is to write a function called `coatOrNoCoat` it should take in a single number argument of `temp`.
 You can handle any numbers

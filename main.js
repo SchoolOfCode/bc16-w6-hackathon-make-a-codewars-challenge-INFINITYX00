@@ -5,7 +5,4 @@
 // If the temp is less than 20, return "it's cold out you should wear a coat"
 // If the temp is greater than or equal 20 return "it's warm out you don't need a coat"
 
-export default function coatOrNoCoat(temp) {
-  if (temp < 20) return "it's cold out you should wear a coat";
-  if (temp >= 20) return "it's warm out you don't need a coat";
-}
+export default function coatOrNoCoat(temp) {}

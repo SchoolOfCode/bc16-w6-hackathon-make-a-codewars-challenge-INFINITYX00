@@ -52,3 +52,15 @@ How I could improve
 - Get to level 300 on codewars
 - Stay relaxed even when things go wrong
 - Improve the kata by making harder levels
+
+Solution code
+
+export default function coatOrNoCoat(temp) {
+if (typeof temp !== "number" || isNaN(temp)) {
+return "undefined";
+} else if (temp < 20) {
+return "it's cold out you should wear a coat";
+} else if (temp >= 20) {
+return "it's warm out you don't need a coat";
+}
+}
